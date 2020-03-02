@@ -27,3 +27,5 @@
 ###### now the master branch is one commit behind
 
 ##### any files or work made on the develop branch wont be on the master branch yet
+
+##### git checkout feature1 will switch to the feature1 branch
