@@ -17,8 +17,8 @@
 ###### in the print out you will have commit message on the right, commit hash on the left
 
 ###### git branch will show all your branches, with the branch you are on highlighted
-<<<<<<< HEAD
-=======
+
+# <<<<<<< HEAD
 
 ###### before switching branches make sure the branch is clear working tree is clean
 
@@ -41,4 +41,9 @@
 ###### After feature1 branch is merged we need to delete it with git branch -d feature1
 
 ##### after merging files from feature1 to develop, merge from develop to master
->>>>>>> develop
+
+> > > > > > > develop
+
+###### switch to the master branch and run git merge develop
+
+###### tag the most recent commit on the master branch git tag -a v1.1 -m "added second release tag"
