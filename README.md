@@ -36,6 +36,6 @@
 
 ###### run git checkout develop, then git merge feature1
 
-###### After feature1 branch is merged we need to delete it
+###### After feature1 branch is merged we need to delete it with git branch -d feature1
 
 ##### after merging files from feature1 to develop, merge from develop to master
