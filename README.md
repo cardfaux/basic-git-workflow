@@ -27,3 +27,9 @@
 ###### now the master branch is one commit behind
 
 ##### any files or work made on the develop branch wont be on the master branch yet
+
+##### every push to the develop branch will keep the master branch that far behind
+
+##### create a feature branch to work off the develop branch without messing up any of the develop branch
+
+## git branch feature1 wil create the branch
