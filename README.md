@@ -28,8 +28,8 @@
 
 ##### any files or work made on the develop branch wont be on the master branch yet
 
-##### every push to the develop branch will keep the master branch that far behind
+##### git checkout feature1 will switch to the feature1 branch
 
-##### create a feature branch to work off the develop branch without messing up any of the develop branch
+###### do work run git add ., git commit -m "", and then push to the feature1 branch
 
-## git branch feature1 wil create the branch
+###### can switch back to the develop branch with git checkout develop
