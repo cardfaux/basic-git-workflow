@@ -35,3 +35,7 @@
 ###### if we want the feature1 branch to merge into the develop branch as long as the files to conflict they can merge easily
 
 ###### run git checkout develop, then git merge feature1
+
+###### After feature1 branch is merged we need to delete it
+
+##### after merging files from feature1 to develop, merge from develop to master
