@@ -30,6 +30,8 @@
 
 ##### git checkout feature1 will switch to the feature1 branch
 
-###### do work run git add ., git commit -m "", and then push to the feature1 branch
+##### Two Different Commits on 2 different branches can have 2 different snap shots of code.
 
-###### can switch back to the develop branch with git checkout develop
+###### if we want the feature1 branch to merge into the develop branch as long as the files to conflict they can merge easily
+
+###### run git checkout develop, then git merge feature1
