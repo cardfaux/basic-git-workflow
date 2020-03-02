@@ -21,3 +21,9 @@
 ###### before switching branches make sure the branch is clear working tree is clean
 
 ###### git checkout develop will switch to this develop branch
+
+###### do your work run git add . and git commit -m "" and then git push origin develop
+
+###### now the master branch is one commit behind
+
+##### any files or work made on the develop branch wont be on the master branch yet
