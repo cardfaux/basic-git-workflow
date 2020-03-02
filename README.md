@@ -17,3 +17,28 @@
 ###### in the print out you will have commit message on the right, commit hash on the left
 
 ###### git branch will show all your branches, with the branch you are on highlighted
+<<<<<<< HEAD
+=======
+
+###### before switching branches make sure the branch is clear working tree is clean
+
+###### git checkout develop will switch to this develop branch
+
+###### do your work run git add . and git commit -m "" and then git push origin develop
+
+###### now the master branch is one commit behind
+
+##### any files or work made on the develop branch wont be on the master branch yet
+
+##### git checkout feature1 will switch to the feature1 branch
+
+##### Two Different Commits on 2 different branches can have 2 different snap shots of code.
+
+###### if we want the feature1 branch to merge into the develop branch as long as the files to conflict they can merge easily
+
+###### run git checkout develop, then git merge feature1
+
+###### After feature1 branch is merged we need to delete it with git branch -d feature1
+
+##### after merging files from feature1 to develop, merge from develop to master
+>>>>>>> develop
